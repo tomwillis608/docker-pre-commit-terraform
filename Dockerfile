@@ -1,4 +1,5 @@
-FROM debian:stable-slim
+# FROM debian:stable-slim
+FROM docker:dind-stable
 
 # Set encodeing to UTF-8
 ENV LANG C.UTF-8
